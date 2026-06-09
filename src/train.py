@@ -66,7 +66,7 @@ def train_and_log(df: pd.DataFrame, champion_path: str = CHAMPION_PATH) -> str:
     return champion_path
 
 
-_DEFAULT_DATA = str(Path(__file__).resolve().parent.parent.parent / "data" / "bike_sharing_hourly_sample.csv")
+_DEFAULT_DATA = str(Path(__file__).resolve().parent.parent / "data" / "hour.csv")
 
 
 def main(data_path: Optional[str] = None) -> str:

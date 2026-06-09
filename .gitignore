@@ -16,3 +16,7 @@ mlruns/
 # Secrets — NEVER commit tokens
 .env
 *.token
+
+# Binary assets (regenerate locally if needed)
+assets/*.png
+mlflow.db

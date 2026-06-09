@@ -8,7 +8,7 @@ from src.predict import load_model, predict
 
 import os
 
-DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "bike_sharing_hourly_sample.csv")
+DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "hour.csv")
 
 
 def main() -> None:

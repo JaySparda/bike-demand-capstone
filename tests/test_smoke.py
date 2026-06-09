@@ -4,7 +4,7 @@ from src.data_prep import LEAKAGE_COLUMNS, load_and_clean
 
 import os
 
-SAMPLE = os.path.join(os.path.dirname(__file__), "..", "..", "data", "bike_sharing_hourly_sample.csv")
+SAMPLE = os.path.join(os.path.dirname(__file__), "..", "data", "bike_sharing_hourly_sample.csv")
 
 
 def test_no_leakage_columns_after_cleaning():
