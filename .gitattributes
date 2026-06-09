@@ -1,1 +1,5 @@
 models/*.pkl filter=lfs diff=lfs merge=lfs -text
+# Binary files for Hugging Face XET storage
+assets/*.png filter=lfs diff=lfs merge=lfs -text
+*.db filter=lfs diff=lfs merge=lfs -text
+mlruns/** filter=lfs diff=lfs merge=lfs -text
